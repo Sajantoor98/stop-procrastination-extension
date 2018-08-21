@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Stop Procrastinating!",
+  "version": "0.1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*",
+        "https://twitter.com/*",
+        "https://discordapp.com/*",
+        "https://www.instagram.com/*",
+        "https://www.reddit.com/*",
+        "https://www.facebook.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
